@@ -31,6 +31,7 @@ class Example(QWidget):
     def draw_flag(self, qp):
         qp.setBrush(QColor(255, 255, 100))
         qp.drawEllipse(30, 30, 100, 100)
+        qp.drawEllipse(30, 50, 100, 100)
 
 
 if __name__ == '__main__':
